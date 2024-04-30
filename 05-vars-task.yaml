@@ -5,7 +5,7 @@
     trainer: "Sivakumar"
     duration: "120hrs  from play level"
   tasks:
-  - name: print information
+  - name: print override information
     vars: #declare variables in task level
       course: "terrform"
       trainer: "Sivakumar"
