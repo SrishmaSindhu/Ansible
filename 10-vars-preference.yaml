@@ -1,7 +1,7 @@
 - name: variable preference
   hosts: localhost
-  vars:
-    WISH: "Good Morning from play variable"
+  # vars:
+  #   WISH: "Good Morning from play variable"
   # vars_prompt:
   # - name: WISH
   #   prompt: enter wishes
@@ -18,3 +18,6 @@
      # 1.arguments
      # 2.task level
      # 3.file level 
+     # 4.prompt
+     # 5. Play
+     # 6.
