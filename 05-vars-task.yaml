@@ -1,0 +1,14 @@
+- name: variables
+  hosts: localhost
+  vars: #declare variables in play level
+    course: "Ansible"
+    trainer: "Sivakumar"
+    duration: "120hrs  from play level"
+  tasks:
+  - name: print information
+    vars: #declare variables in task level
+      course: "terrform"
+      trainer: "Sivakumar"
+      duration: "120hrs from task level"
+    ansible.builtin.debug:
+      msg: "Hi, we are learning {{course}} from trainer {{trainer}}, duration is {{duration}}"

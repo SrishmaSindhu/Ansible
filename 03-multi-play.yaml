@@ -1,6 +1,6 @@
 - name: PLAY-1
   hosts: localhost
-  tasks:
+  tasks: 
    - name: PLAY-1 And TASK-1
      ansible.builtin.debug:
       msg: "Hello I am from PLAY-1 and TASk-1"
